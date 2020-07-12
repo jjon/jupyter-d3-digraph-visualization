@@ -1,0 +1,1010 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "d1e13573",
+            "type": "SourceNote",
+            "sources": "Close Rolls v.2 (1231-1234) p.312-13",
+            "sourceDate": "1233-06-10",
+            "label": "Hostages taken from major marchers to secure a ``firm peace`` in England",
+            "comments": "why are some granted to those who themselves give up hostages.; look into Brian de Brompton's family: frequent witness in LNW charters; see intros to Curia Regis rolls Meekings, CAF",
+            "abstract": "Die Lune proxima post festum Sancti Barnabe Apostoli apud Wigorniam Coram rege anno etc. xvii., presentibus dominis Wintoniensi et Cycestrensi, S. de Sedgrave justiciario Anglie, comite Ricardo, W. comite Albem', Thoma comite War', Philippo de Albiniaco, Petro de Malo Lacu, Pagano de Chaurces, Andrea de Canceaus, P. de Rivall' tunc thesaurario, Willelmo filio Warini, Hugone Dispensatore, radulfo filio Nicholai, Liberaverunt subscripti barones de Marchia obsides suos domino regi de fideli servicio, quousque regnum sit ita securatum quod firma pax sit in regno Anglie.; Walterus de Lascy liberavit Johannem filium Rogeri Pichard in obsidem pro eo, quousque regnum fuerit securatum quod firma pax sit. Et dominus rex tradidit eum custodiendum Engelardo de Cygoiny.; Henry Audley gave Ranulf his son who was turned over to Hugh Dispenser; Thomas Corbet gave Reginald, son of Richard Corbet who was turned over to Walter de Lacy (d. 1241); Hervicus de Stafford gave John his son who was turned over to Ralph fitz Nicholas; Ralph Mortimer gave Henry, son of Brian de Brompton who was turned over to William de Stutevill; William de Stutevill gave Osmund his son et dominus rex liberavit eum to Stephen Sedgrave (custodiendum).; Willelmus de Gamages gave Henry his son who was turned over to Walter de Beauchamp; Walter de Beauchamp gave his son Jacob who was turned over to Peter fitz Herbert; Thomas earl of Warwick gave the castle of Warewick 'ut dominus rex securus sit quod nullum dampnum per eum eveniet.' custody granted to John de Lodbroc and John Durvassal; John Durvassal gave his son 'in obsidem de fideli sevicio, sicut predictum est'.; John de Lodbroc gave Philip fitz William Sampson his nephew who was turned over to Stephen de Sedgave",
+            "uri": "http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573",
+            "keywords": "familia, hostages, marcher_party, toCheck_date",
+            "people": "Andrea_de_Canceaus,    Aubiniaco_Philip_de,    Audley_Henry_de,    Beauchamp_Walter_de,    Brompton_Brian_de_1215-1277,    Brompton_Henry_de,    Corbet_Reginald,    Corbet_Thomas,    Henry_de_Gamages,    Hervicus_de_Stafford,    Hugh_Despenser,    Jacob_de_Beauchamp,    John_Durvassal,    John_de_Lodbroc,    John_de_Stafford,    Lacy_Walter_de_d_1241,    Maulay_Peter_de_d_1279,    Mortimer_Ralph_d_1247,    Pagano_de_Chaurces,    Peter_de_Rivaux,    Philip_fitz_William_Sampson,    Picard_Roger,    Ralph_fitz_Nicholas,    Ranulf_de_Aldithele,    Richard_Corbet,    Segrave_Stephen_d_1241,    Stutevill_Osmund_de,    Stutevill_William_de,    Thomas_earl_of_Warwick_d_1242,    W_earl_Aubermarle,    Wiliam_de_Gamages,    William_fitz_Warin",
+            "witnesses": "Nevill_Ralph_de, Peter_de_Rivaux, William_fitz_Warin, Hugh_Despenser, Ralph_fitz_Nicholas, Segrave_Stephen_d_1241, Richard_earl_of_Cornwall, William_de_Fortibus_count_of_Aumâle, Thomas_earl_of_Warwick_d_1242, Albiniaco_Philip_de, Maulay_Peter_de_d_1279, Pagano_de_Chaurces, Andrea_de_Canceaus",
+            "places": "Worcester"
+        },
+        {
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "date": "1233-06-10",
+            "attestedIn": "d1e13573",
+            "type": "Event",
+            "label": "1233 hostages: Walter de Lacy gives John fitz Roger Picard to Engelard de Cigogn\u00e9",
+            "id": "hostage_exchange_1233e"
+        },
+        {
+            "label": "1233 hostages: Herv\u00e9 de Stafford gives his son John to Ralph fitz Nicholas",
+            "attestedIn": "d1e13573",
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "date": "1233-06-10",
+            "type": "Event",
+            "id": "hostage_exchange_1233h"
+        },
+        {
+            "label": "Audley, Henry de",
+            "type": "Person",
+            "id": "Audley_Henry_de"
+        },
+        {
+            "label": "Segrave, Stephen de d.1241",
+            "type": "Person",
+            "id": "Segrave_Stephen_d_1241"
+        },
+        {
+            "type": "Person",
+            "label": "Andrea de Canceaus",
+            "id": "Andrea_de_Canceaus"
+        },
+        {
+            "label": "Engelard de Cigogn\u00e9",
+            "type": "Person",
+            "id": "Engelard_de_Cigogn\u00e9"
+        },
+        {
+            "type": "Person",
+            "label": "Henry (son of Brian) de Brompton",
+            "name": "Henry de Brompton",
+            "id": "Henry_de_Brompton"
+        },
+        {
+            "date": "1233-06-10",
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "label": "1233 hostages: William de Gamages gives son Henry to Walter de Beauchamp",
+            "type": "Event",
+            "attestedIn": "d1e13573",
+            "id": "hostage_exchange_1233c"
+        },
+        {
+            "type": "Person",
+            "label": "Philip fitz William Sampson",
+            "id": "Philip_fitz_William_Sampson"
+        },
+        {
+            "label": "A son of John Durvassal",
+            "type": "Person",
+            "id": "A_son_of_John_Durvassal"
+        },
+        {
+            "date": "1233-06-10",
+            "type": "Event",
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "label": "1233 hostages: Thomas Corbet gives Reginald Corbet to Walter de Lacy",
+            "attestedIn": "d1e13573",
+            "id": "hostage_exchange_1233g"
+        },
+        {
+            "label": "Ferri\u00e8res, Isabella de",
+            "type": "Person",
+            "id": "Ferri\u00e8res_Isabella_de"
+        },
+        {
+            "type": "Person",
+            "label": "Peter de Rivaux",
+            "id": "Peter_de_Rivaux"
+        },
+        {
+            "date": "1233-06-10",
+            "type": "Event",
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "attestedIn": "d1e13573",
+            "label": "1233 hostages: Walter de Beauchamp gives son Jacob to Peter fitz Herbert",
+            "id": "hostage_exchange_1233d"
+        },
+        {
+            "type": "Baron",
+            "label": "Corbet, Thomas",
+            "id": "Corbet_Thomas"
+        },
+        {
+            "label": "Jacob de Beauchamp",
+            "type": "Person",
+            "id": "Jacob_de_Beauchamp"
+        },
+        {
+            "type": "Person",
+            "label": "Peter de Maulay d. 1279",
+            "id": "Maulay_Peter_de_d_1279"
+        },
+        {
+            "label": "Hugh Despenser",
+            "type": "Person",
+            "id": "Hugh_Despenser"
+        },
+        {
+            "type": "Person",
+            "label": "John Durvassal",
+            "id": "John_Durvassal"
+        },
+        {
+            "label": "Hervicus de Stafford",
+            "type": "Person",
+            "id": "Hervicus_de_Stafford"
+        },
+        {
+            "type": "Person",
+            "label": "John fitz Roger Picard",
+            "id": "John_Picard"
+        },
+        {
+            "name": "Brian de Brompton",
+            "type": "Person",
+            "label": "Brompton, Brian de (1215-1277)",
+            "id": "Brompton_Brian_de_1215-1277"
+        },
+        {
+            "type": "Person",
+            "label": "Pagano de Chaurces",
+            "id": "Pagano_de_Chaurces"
+        },
+        {
+            "label": "Stutevill, Osmund de",
+            "type": "Person",
+            "id": "Stutevill_Osmund_de"
+        },
+        {
+            "attestedIn": "d1e13573",
+            "label": "1233 hostages: John Durvassal gives his son to the king \"in obsidem de fideli sevicio, sicut predictum est\"",
+            "date": "1233-06-10",
+            "type": "Event",
+            "id": "hostage_exchange_1233j"
+        },
+        {
+            "label": "Warwick Castle",
+            "type": "Place",
+            "id": "Warwick_Castle",
+            "latLong": [52.279668,-1.5874167]
+        },
+        {
+            "label": "Ralph de Nevill, bp. Chichester, Chancellor",
+            "type": "Person",
+            "id": "Nevill_Ralph_de"
+        },
+        {
+            "label": "Mortimer, Ralph (d.1247)",
+            "type": "Person",
+            "id": "Mortimer_Ralph_d_1247",
+            "latLong": [52.317639,-2.8706951]
+        },
+        {
+            "label": "William de Fortibus, earl Aubermarle",
+            "comment": "\"Soon after the death of Baldwin (October 13, 1213), William de Fortibus, Hawise's son by her second husband, was established by King John in the territories of the Countship of Albemarle, and in 1215 the whole of his mother's estates were formally confirmed to him. He is described by Bishop Stubbs as \"a feudal adventurer of the worst type,\" and for some time was actively engaged in the struggles of the Norman barons against both John and Henry III.\nHe was one of the twenty-five executors of the Great Charter; but in the war that followed sided with John, subsequently changing sides as often as it suited his policy. His object was to revive the independent power of the feudal barons, and he co-operated to this end with Falkes de Breaut and other foreign adventurers established in the country by John. This brought him into conflict with the great justiciar, Hubert de Burgh, and in 1219 he was declared a rebel and excommunicated for attending a forbidden tournament. In 1220 matters were brought to a crisis by his refusal to surrender the two royal castles of Rockingham and Sauvey of which he had been made constable in 1216. Henry III marched against them in person, the garrisons fled, and they fell without a blow. In the following year, however, Albemarle, in face of further efforts to reduce his power, rose in revolt.\nHe was now again excommunicated by the legate Pandulph at a solemn council held in St Paul's, and the whole force of the kingdom was set in motion against him, a special scutage\u2014the scutagium de Bihan\u2014being voted for this purpose by the Great Council. The capture of his Castle of Bytham broke his power; he sought sanctuary and, at Pandulph's intercession, was pardoned on condition of going for six years to the Holy Land. He remained in England, however, and in 1223 was once more in revolt with Falkes de Breaute, the Earl of Chester and other turbulent spirits. A reconciliation was once more patched up; but it was not until the fall of Falkes de Breaute that Albemarle finally settled down as an English noble.\nIn 1225 he witnessed Henry's third re-issue of the Great Charter; in 1227 he went as, ambassador, to Antwerp; and in 1230 he accompanied Henry on his expedition to Brittany. In 1241 he set out for the Holy Land, but died at sea, on his way there, on March 26 1242.\" wikipedia",
+            "type": "Person",
+            "id": "W_earl_Aubermarle"
+        },
+        {
+            "label": "Mortimer, Roger (d.1214)",
+            "type": "Person",
+            "id": "Mortimer_Roger_d_1214"
+        },
+        {
+            "label": "1233 hostages: John de Lodbroc gives his nephew Philip fitz William Sampson to Stephen Segrave\"",
+            "type": "Event",
+            "date": "1233-06-10",
+            "attestedIn": "d1e13573",
+            "id": "hostage_exchange_1233k"
+        },
+        {
+            "label": "Richard Corbet",
+            "type": "Person",
+            "id": "Richard_Corbet"
+        },
+        {
+            "type": "Person",
+            "label": "Ranulf de Aldithele",
+            "id": "Ranulf_de_Aldithele"
+        },
+        {
+            "type": "Person",
+            "label": "Roger Picard",
+            "id": "Roger_Picard"
+        },
+        {
+            "label": "Ferri\u00e8res, Walcheline de (d 1201)",
+            "type": "Person",
+            "id": "Ferri\u00e8res_Walcheline_de_d_1201"
+        },
+        {
+            "type": "Person",
+            "label": "Beauchamp, Walter de",
+            "id": "Beauchamp_Walter_de"
+        },
+        {
+            "label": "John de Lodbroc",
+            "type": "Person",
+            "id": "John_de_Lodbroc"
+        },
+        {
+            "type": "Event",
+            "attestedIn": "d1e13573",
+            "date": "1233-06-10",
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "label": "1233 hostages: William de Stutevill gives son Osmund de Stutevill to Stephen Segrave",
+            "id": "hostage_exchange_1233b"
+        },
+        {
+            "label": "Corbet, Reginald",
+            "type": "Person",
+            "id": "Corbet_Reginald"
+        },
+        {
+            "label": "William de Gamages",
+            "type": "Person",
+            "id": "William_de_Gamages"
+        },
+        {
+            "type": "Person",
+            "label": "Llywelyn ab Iorwerth",
+            "id": "Llywelyn_ab_Iorwerth"
+        },
+        {
+            "type": "Person",
+            "label": "Walter de Lacy, d1241",
+            "id": "Lacy_Walter_de_d_1241"
+        },
+        {
+            "type": "Person",
+            "label": "Henry de Gamages",
+            "id": "Henry_de_Gamages"
+        },
+        {
+            "label": "William Sampson",
+            "type": "Person",
+            "id": "Sampson_William"
+        },
+        {
+            "type": "Person",
+            "label": "Ralph fitz Nicholas",
+            "id": "Ralph_fitz_Nicholas"
+        },
+        {
+            "name": "William de Stutevill",
+            "type": "Person",
+            "label": "Stutevill de, William",
+            "id": "William_de_Stutevill"
+        },
+        {
+            "type": "Event",
+            "attestedIn": "d1e13573",
+            "date": "1233-06-10",
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "label": "1233 hostages: Henry Audley gives Ranulf his son to Hugh Despenser",
+            "id": "hostage_exchange_1233f"
+        },
+        {
+            "type": "Person",
+            "label": "Peter fitz Herbert",
+            "id": "Peter_fitz_Herbert"
+        },
+        {
+            "type": "Person",
+            "label": "John de Stafford",
+            "id": "John_de_Stafford"
+        },
+        {
+            "label": "Phillippa Basset (d 1265)",
+            "type": "Person",
+            "id": "Phillippa_Basset_d_1265"
+        },
+        {
+            "comment": " March connection: \"Thomas de Newburgh, son of Henry Earl of Warwick, the conqueror of Gower, parted with the lordship to the crown. King John, in the fourth year of his reign\" (www.gutenberg.org/files/12576/12576-h/12576-h.htm Title\tThe Mirror of Literature, Amusement, and Instruction Volume 17, No. 478, February 26, 1831 Language\tEnglish EText-No.\t12576 Release Date\t2004-06-01 Copyright Status\tNot copyrighted in the United States. If you live elsewhere check the laws of your country before downloading this ebook. Base Directory\t/files/12576/  Dates are funny here, but the narrative seems to be Newburg conquerors of Gower -- Gower to John -- Gower to William de Braose -- need to verify this stuff, but Thomas clearly a marcher in 1233, explaining why Henry was unsure of him.",
+            "label": "Thomas earl of Warwick",
+            "type": "Person",
+            "id": "Thomas_earl_of_Warwick_d_1242"
+        },
+        {
+            "label": "Henry, earl of Warwick (d 1229)",
+            "id": "Henry_earl_of_Warwick_d_1229"
+        },
+        {
+            "isDiscussedIn": "Rolls.CR-1940",
+            "attestedIn": "d1e13573",
+            "date": "1233-06-10",
+            "label": "1233 hostages: Thomas earl of Warwick gave the castle of Warewick \"ut dominus rex securus sit quod nullum dampnum per eum eveniet.\" and its custody was granted to John de Lodbroc and John Durvassal",
+            "type": "Event",
+            "id": "hostage_exchange_1233i"
+        },
+        {
+            "type": "Person",
+            "label": "Henry III",
+            "id": "Henry_III"
+        },
+        {
+            "label": "Gwladys_Ddu",
+            "type": "Person",
+            "id": "Gwladys_Ddu"
+        },
+        {
+            "date": "1233-06-10",
+            "isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "type": "Event",
+            "label": "1233 hostages: Ralph Mortimer gives Henry de Brompton to William de Stutevill",
+            "comment": "Complex hostage exchange involving nearly 30 people, intimates of the crown as well as marcher lords. Each ternary relation (guarantor, hostage, captor) is recorded in a separate resource.",
+            "attestedIn": "d1e13573",
+            "id": "hostage_exchange_1233a"
+        },
+        {
+            "id": "Church"
+        },
+        {
+            "id": "random text literal"
+        },
+        {
+            "id": "n83-148645.html"
+        }
+    ],
+    "links": [
+        {
+            "source": "hostage_exchange_1233e",
+            "target": "Engelard_de_Cigogn\u00e9",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "hostage_exchange_1233e",
+            "target": "John_Picard",
+            "type": "hostage"
+        },
+        {
+            "source": "hostage_exchange_1233e",
+            "target": "Lacy_Walter_de_d_1241",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "hostage_exchange_1233h",
+            "target": "John_de_Stafford",
+            "type": "hostage"
+        },
+        {
+            "source": "hostage_exchange_1233h",
+            "target": "Hervicus_de_Stafford",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "hostage_exchange_1233h",
+            "target": "Ralph_fitz_Nicholas",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "Audley_Henry_de",
+            "target": "Hugh_Despenser",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "Audley_Henry_de",
+            "target": "hostage_exchange_1233f",
+            "type": "participated_in"
+        },
+        {
+            "source": "Segrave_Stephen_d_1241",
+            "target": "Stutevill_Osmund_de",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Segrave_Stephen_d_1241",
+            "target": "hostage_exchange_1233k",
+            "type": "participated_in"
+        },
+        {
+            "source": "Segrave_Stephen_d_1241",
+            "target": "Philip_fitz_William_Sampson",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Segrave_Stephen_d_1241",
+            "target": "hostage_exchange_1233b",
+            "type": "participated_in"
+        },
+        {
+            "source": "Engelard_de_Cigogn\u00e9",
+            "target": "hostage_exchange_1233e",
+            "type": "participated_in"
+        },
+        {
+            "source": "Engelard_de_Cigogn\u00e9",
+            "target": "John_Picard",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Henry_de_Brompton",
+            "target": "Brompton_Brian_de_1215-1277",
+            "type": "childOf"
+        },
+        {
+            "source": "Henry_de_Brompton",
+            "target": "hostage_exchange_1233a",
+            "type": "participated_in"
+        },
+        {
+            "source": "Henry_de_Brompton",
+            "target": "Mortimer_Ralph_d_1247",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "hostage_exchange_1233c",
+            "target": "Henry_de_Gamages",
+            "type": "hostage"
+        },
+        {
+            "source": "hostage_exchange_1233c",
+            "target": "Beauchamp_Walter_de",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "hostage_exchange_1233c",
+            "target": "William_de_Gamages",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "Philip_fitz_William_Sampson",
+            "target": "Sampson_William",
+            "type": "childOf"
+        },
+        {
+            "source": "Philip_fitz_William_Sampson",
+            "target": "hostage_exchange_1233k",
+            "type": "participated_in"
+        },
+        {
+            "source": "Philip_fitz_William_Sampson",
+            "target": "John_de_Lodbroc",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "A_son_of_John_Durvassal",
+            "target": "John_Durvassal",
+            "type": "childOf"
+        },
+        {
+            "source": "A_son_of_John_Durvassal",
+            "target": "John_Durvassal",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "A_son_of_John_Durvassal",
+            "target": "hostage_exchange_1233j",
+            "type": "participated_in"
+        },
+        {
+            "source": "hostage_exchange_1233g",
+            "target": "Corbet_Thomas",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "hostage_exchange_1233g",
+            "target": "Lacy_Walter_de_d_1241",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "hostage_exchange_1233g",
+            "target": "Corbet_Reginald",
+            "type": "hostage"
+        },
+        {
+            "source": "Ferri\u00e8res_Isabella_de",
+            "target": "Ferri\u00e8res_Walcheline_de_d_1201",
+            "type": "childOf"
+        },
+        {
+            "source": "Ferri\u00e8res_Isabella_de",
+            "target": "Mortimer_Roger_d_1214",
+            "type": "spouseOf"
+        },
+        {
+            "source": "hostage_exchange_1233d",
+            "target": "Peter_fitz_Herbert",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "hostage_exchange_1233d",
+            "target": "Jacob_de_Beauchamp",
+            "type": "hostage"
+        },
+        {
+            "source": "hostage_exchange_1233d",
+            "target": "Beauchamp_Walter_de",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "Corbet_Thomas",
+            "target": "hostage_exchange_1233g",
+            "type": "participated_in"
+        },
+        {
+            "source": "Corbet_Thomas",
+            "target": "Lacy_Walter_de_d_1241",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "Jacob_de_Beauchamp",
+            "target": "hostage_exchange_1233d",
+            "type": "participated_in"
+        },
+        {
+            "source": "Jacob_de_Beauchamp",
+            "target": "Beauchamp_Walter_de",
+            "type": "childOf"
+        },
+        {
+            "source": "Jacob_de_Beauchamp",
+            "target": "Beauchamp_Walter_de",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "Hugh_Despenser",
+            "target": "Ranulf_de_Aldithele",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Hugh_Despenser",
+            "target": "hostage_exchange_1233f",
+            "type": "participated_in"
+        },
+        {
+            "source": "John_Durvassal",
+            "target": "hostage_exchange_1233i",
+            "type": "participated_in"
+        },
+        {
+            "source": "John_Durvassal",
+            "target": "Henry_III",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "John_Durvassal",
+            "target": "hostage_exchange_1233j",
+            "type": "participated_in"
+        },
+        {
+            "source": "Hervicus_de_Stafford",
+            "target": "hostage_exchange_1233h",
+            "type": "participated_in"
+        },
+        {
+            "source": "Hervicus_de_Stafford",
+            "target": "John_de_Stafford",
+            "type": "parentOf"
+        },
+        {
+            "source": "Hervicus_de_Stafford",
+            "target": "Ralph_fitz_Nicholas",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "John_Picard",
+            "target": "hostage_exchange_1233e",
+            "type": "participated_in"
+        },
+        {
+            "source": "John_Picard",
+            "target": "Lacy_Walter_de_d_1241",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "Brompton_Brian_de_1215-1277",
+            "target": "Mortimer_Ralph_d_1247",
+            "type": "serves"
+        },
+        {
+            "source": "Brompton_Brian_de_1215-1277",
+            "target": "Henry_de_Brompton",
+            "type": "parentOf"
+        },
+        {
+            "source": "Stutevill_Osmund_de",
+            "target": "hostage_exchange_1233b",
+            "type": "participated_in"
+        },
+        {
+            "source": "Stutevill_Osmund_de",
+            "target": "William_de_Stutevill",
+            "type": "childOf"
+        },
+        {
+            "source": "Stutevill_Osmund_de",
+            "target": "William_de_Stutevill",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "hostage_exchange_1233j",
+            "target": "A_son_of_John_Durvassal",
+            "type": "hostage"
+        },
+        {
+            "source": "hostage_exchange_1233j",
+            "target": "Henry_III",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "hostage_exchange_1233j",
+            "target": "John_Durvassal",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "Warwick_Castle",
+            "target": "hostage_exchange_1233i",
+            "type": "participated_in"
+        },
+        {
+            "source": "Nevill_Ralph_de",
+            "target": "Church",
+            "type": "serves"
+        },
+        {
+            "source": "Nevill_Ralph_de",
+            "target": "Henry_III",
+            "type": "serves"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "William_de_Stutevill",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Gwladys_Ddu",
+            "type": "spouseOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Brompton_Brian_de_1215-1277",
+            "type": "lordOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Mortimer_Roger_d_1214",
+            "type": "childOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "hostage_exchange_1233a",
+            "type": "participated_in"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Ferri\u00e8res_Isabella_de",
+            "type": "childOf"
+        },
+        {
+            "source": "Mortimer_Roger_d_1214",
+            "target": "Ferri\u00e8res_Isabella_de",
+            "type": "spouseOf"
+        },
+        {
+            "source": "Mortimer_Roger_d_1214",
+            "target": "Mortimer_Ralph_d_1247",
+            "type": "parentOf"
+        },
+        {
+            "source": "hostage_exchange_1233k",
+            "target": "Philip_fitz_William_Sampson",
+            "type": "hostage"
+        },
+        {
+            "source": "hostage_exchange_1233k",
+            "target": "John_de_Lodbroc",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "hostage_exchange_1233k",
+            "target": "Segrave_Stephen_d_1241",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "Richard_Corbet",
+            "target": "Corbet_Reginald",
+            "type": "parentOf"
+        },
+        {
+            "source": "Ranulf_de_Aldithele",
+            "target": "Audley_Henry_de",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "Ranulf_de_Aldithele",
+            "target": "hostage_exchange_1233f",
+            "type": "participated_in"
+        },
+        {
+            "source": "Roger_Picard",
+            "target": "John_Picard",
+            "type": "parentOf"
+        },
+        {
+            "source": "Beauchamp_Walter_de",
+            "target": "Jacob_de_Beauchamp",
+            "type": "parentOf"
+        },
+        {
+            "source": "Beauchamp_Walter_de",
+            "target": "hostage_exchange_1233d",
+            "type": "participated_in"
+        },
+        {
+            "source": "Beauchamp_Walter_de",
+            "target": "Peter_fitz_Herbert",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "Beauchamp_Walter_de",
+            "target": "Henry_de_Gamages",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Beauchamp_Walter_de",
+            "target": "hostage_exchange_1233c",
+            "type": "participated_in"
+        },
+        {
+            "source": "John_de_Lodbroc",
+            "target": "hostage_exchange_1233k",
+            "type": "participated_in"
+        },
+        {
+            "source": "John_de_Lodbroc",
+            "target": "hostage_exchange_1233i",
+            "type": "participated_in"
+        },
+        {
+            "source": "John_de_Lodbroc",
+            "target": "Segrave_Stephen_d_1241",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "hostage_exchange_1233b",
+            "target": "William_de_Stutevill",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "hostage_exchange_1233b",
+            "target": "Segrave_Stephen_d_1241",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "hostage_exchange_1233b",
+            "target": "Stutevill_Osmund_de",
+            "type": "hostage"
+        },
+        {
+            "source": "Corbet_Reginald",
+            "target": "Richard_Corbet",
+            "type": "childOf"
+        },
+        {
+            "source": "Corbet_Reginald",
+            "target": "hostage_exchange_1233g",
+            "type": "participated_in"
+        },
+        {
+            "source": "Corbet_Reginald",
+            "target": "Corbet_Thomas",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "William_de_Gamages",
+            "target": "Beauchamp_Walter_de",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "William_de_Gamages",
+            "target": "Henry_de_Gamages",
+            "type": "parentOf"
+        },
+        {
+            "source": "William_de_Gamages",
+            "target": "hostage_exchange_1233c",
+            "type": "participated_in"
+        },
+        {
+            "source": "Lacy_Walter_de_d_1241",
+            "target": "hostage_exchange_1233e",
+            "type": "participated_in"
+        },
+        {
+            "source": "Lacy_Walter_de_d_1241",
+            "target": "hostage_exchange_1233g",
+            "type": "participated_in"
+        },
+        {
+            "source": "Lacy_Walter_de_d_1241",
+            "target": "Engelard_de_Cigogn\u00e9",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "Lacy_Walter_de_d_1241",
+            "target": "Corbet_Reginald",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Henry_de_Gamages",
+            "target": "hostage_exchange_1233c",
+            "type": "participated_in"
+        },
+        {
+            "source": "Henry_de_Gamages",
+            "target": "William_de_Gamages",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "Henry_de_Gamages",
+            "target": "William_de_Gamages",
+            "type": "childOf"
+        },
+        {
+            "source": "Sampson_William",
+            "target": "Philip_fitz_William_Sampson",
+            "type": "parentOf"
+        },
+        {
+            "source": "Sampson_William",
+            "target": "hostage_exchange_1233k",
+            "type": "participated_in"
+        },
+        {
+            "source": "Ralph_fitz_Nicholas",
+            "target": "Henry_III",
+            "type": "serves"
+        },
+        {
+            "source": "Ralph_fitz_Nicholas",
+            "target": "John_de_Stafford",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Ralph_fitz_Nicholas",
+            "target": "hostage_exchange_1233h",
+            "type": "participated_in"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "hostage_exchange_1233b",
+            "type": "participated_in"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "Henry_de_Brompton",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "random text literal",
+            "type": "property"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "Segrave_Stephen_d_1241",
+            "type": "gives_hostage_to"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "hostage_exchange_1233a",
+            "type": "participated_in"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "Stutevill_Osmund_de",
+            "type": "parentOf"
+        },
+        {
+            "source": "hostage_exchange_1233f",
+            "target": "Hugh_Despenser",
+            "type": "hostageHolder"
+        },
+        {
+            "source": "hostage_exchange_1233f",
+            "target": "Audley_Henry_de",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "hostage_exchange_1233f",
+            "target": "Ranulf_de_Aldithele",
+            "type": "hostage"
+        },
+        {
+            "source": "Peter_fitz_Herbert",
+            "target": "hostage_exchange_1233d",
+            "type": "participated_in"
+        },
+        {
+            "source": "Peter_fitz_Herbert",
+            "target": "Jacob_de_Beauchamp",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "John_de_Stafford",
+            "target": "hostage_exchange_1233h",
+            "type": "participated_in"
+        },
+        {
+            "source": "John_de_Stafford",
+            "target": "Hervicus_de_Stafford",
+            "type": "is_hostage_for"
+        },
+        {
+            "source": "John_de_Stafford",
+            "target": "Hervicus_de_Stafford",
+            "type": "childOf"
+        },
+        {
+            "source": "Thomas_earl_of_Warwick_d_1242",
+            "target": "Phillippa_Basset_d_1265",
+            "type": "childOf"
+        },
+        {
+            "source": "Thomas_earl_of_Warwick_d_1242",
+            "target": "Henry_earl_of_Warwick_d_1229",
+            "type": "childOf"
+        },
+        {
+            "source": "Thomas_earl_of_Warwick_d_1242",
+            "target": "hostage_exchange_1233i",
+            "type": "participated_in"
+        },
+        {
+            "source": "hostage_exchange_1233i",
+            "target": "John_de_Lodbroc",
+            "type": "custodyHolder"
+        },
+        {
+            "source": "hostage_exchange_1233i",
+            "target": "Warwick_Castle",
+            "type": "pledge"
+        },
+        {
+            "source": "hostage_exchange_1233i",
+            "target": "Thomas_earl_of_Warwick_d_1242",
+            "type": "pledgeGiver"
+        },
+        {
+            "source": "hostage_exchange_1233i",
+            "target": "John_Durvassal",
+            "type": "custodyHolder"
+        },
+        {
+            "source": "Henry_III",
+            "target": "n83-148645.html",
+            "type": "sameAs"
+        },
+        {
+            "source": "Henry_III",
+            "target": "hostage_exchange_1233j",
+            "type": "participated_in"
+        },
+        {
+            "source": "Henry_III",
+            "target": "A_son_of_John_Durvassal",
+            "type": "holds_as_hostage"
+        },
+        {
+            "source": "Gwladys_Ddu",
+            "target": "Llywelyn_ab_Iorwerth",
+            "type": "childOf"
+        },
+        {
+            "source": "hostage_exchange_1233a",
+            "target": "Henry_de_Brompton",
+            "type": "hostage"
+        },
+        {
+            "source": "hostage_exchange_1233a",
+            "target": "Mortimer_Ralph_d_1247",
+            "type": "hostageGiver"
+        },
+        {
+            "source": "hostage_exchange_1233a",
+            "target": "William_de_Stutevill",
+            "type": "hostageHolder"
+        }
+    ]
+}

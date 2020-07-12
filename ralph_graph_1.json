@@ -1,0 +1,185 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "uri": "http://example.com/thisgraph#hostage_exchange_1233a",
+            "dc:date": "1233-06-10",
+            "rdf:type": "crm:Event",
+            "rdfs:label": "1233 hostages: Ralph Mortimer gives Henry de Brompton to William de Stutevill",
+            "pome:attestedIn": "ns1:d1e13573",
+            "pome:isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "rdfs:comment": "Complex hostage exchange involving nearly 30 people, intimates of the crown as well as marcher lords. Each ternary relation (guarantor, hostage, captor) is recorded in a separate resource.",
+            "id": "hostage_exchange_1233a"
+        },
+        {
+            "uri": "http://example.com/thisgraph#William_de_Stutevill",
+            "rdf:type": "pome:Person",
+            "foaf:name": "William de Stutevill",
+            "rdfs:label": "Stutevill, William de",
+            "id": "William_de_Stutevill"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Henry_de_Brompton",
+            "rdf:type": "pome:Person",
+            "rdfs:label": "Henry (son of Brian) de Brompton",
+            "foaf:name": "Henry de Brompton",
+            "id": "Henry_de_Brompton"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Mortimer_Ralph_d_1247",
+            "rdfs:label": "Mortimer, Ralph (d.1247)",
+            "rdf:type": "pome:Person",
+            "id": "Mortimer_Ralph_d_1247"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Stutevill_Osmund_de",
+            "rdfs:label": "Stutevill, Osmund de",
+            "rdf:type": "pome:Person",
+            "id": "Stutevill_Osmund_de"
+        },
+        {
+            "uri": "http://example.com/thisgraph#hostage_exchange_1233b",
+            "pome:isDiscussedIn": "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>",
+            "dc:date": "1233-06-10",
+            "rdfs:label": "1233 hostages: William de Stutevill gives son Osmund de Stutevill to Stephen Segrave",
+            "pome:attestedIn": "ns1:d1e13573",
+            "rdf:type": "crm:Event",
+            "id": "hostage_exchange_1233b"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Ferri\u00e8res_Isabella_de",
+            "rdfs:label": "Ferri\u00e8res, Isabella de",
+            "rdf:type": "pome:Person",
+            "id": "Ferri\u00e8res_Isabella_de"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Mortimer_Roger_d_1214",
+            "rdfs:label": "Mortimer, Roger (d.1214)",
+            "rdf:type": "pome:Person",
+            "id": "Mortimer_Roger_d_1214"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Brompton_Brian_de_1215-1277",
+            "rdfs:label": "Brompton, Brian de (1215-1277)",
+            "rdf:type": "pome:Person",
+            "foaf:name": "Brian de Brompton",
+            "id": "Brompton_Brian_de_1215-1277"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Gwladys_Ddu",
+            "rdfs:label": "Gwladys_Ddu",
+            "rdf:type": "pome:Person",
+            "id": "Gwladys_Ddu"
+        },
+        {
+            "uri": "http://example.com/thisgraph#Segrave_Stephen_d_1241",
+            "rdf:type": "pome:Person",
+            "rdfs:label": "Segrave, Stephen de d.1241",
+            "id": "Segrave_Stephen_d_1241"
+        }
+    ],
+    "links": [
+        {
+            "source": "William_de_Stutevill",
+            "target": "Stutevill_Osmund_de",
+            "type": "rel:parentOf"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "Segrave_Stephen_d_1241",
+            "type": "pome:gives_hostage_to"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "Henry_de_Brompton",
+            "type": "pome:holds_as_hostage"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "hostage_exchange_1233a",
+            "type": "crm:participated_in"
+        },
+        {
+            "source": "William_de_Stutevill",
+            "target": "hostage_exchange_1233b",
+            "type": "crm:participated_in"
+        },
+        {
+            "source": "Henry_de_Brompton",
+            "target": "Mortimer_Ralph_d_1247",
+            "type": "pome:is_hostage_for"
+        },
+        {
+            "source": "Henry_de_Brompton",
+            "target": "hostage_exchange_1233a",
+            "type": "crm:participated_in"
+        },
+        {
+            "source": "Henry_de_Brompton",
+            "target": "Brompton_Brian_de_1215-1277",
+            "type": "rel:childOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "hostage_exchange_1233a",
+            "type": "crm:participated_in"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Ferri\u00e8res_Isabella_de",
+            "type": "rel:childOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Mortimer_Roger_d_1214",
+            "type": "rel:childOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Brompton_Brian_de_1215-1277",
+            "type": "pome:lordOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "Gwladys_Ddu",
+            "type": "rel:spouseOf"
+        },
+        {
+            "source": "Mortimer_Ralph_d_1247",
+            "target": "William_de_Stutevill",
+            "type": "pome:gives_hostage_to"
+        },
+        {
+            "source": "Stutevill_Osmund_de",
+            "target": "William_de_Stutevill",
+            "type": "pome:is_hostage_for"
+        },
+        {
+            "source": "Stutevill_Osmund_de",
+            "target": "William_de_Stutevill",
+            "type": "rel:childOf"
+        },
+        {
+            "source": "hostage_exchange_1233b",
+            "target": "William_de_Stutevill",
+            "type": "pome:hostageGiver"
+        },
+        {
+            "source": "Mortimer_Roger_d_1214",
+            "target": "Mortimer_Ralph_d_1247",
+            "type": "rel:parentOf"
+        },
+        {
+            "source": "Brompton_Brian_de_1215-1277",
+            "target": "Henry_de_Brompton",
+            "type": "rel:parentOf"
+        },
+        {
+            "source": "Brompton_Brian_de_1215-1277",
+            "target": "Mortimer_Ralph_d_1247",
+            "type": "pome:serves"
+        }
+    ]
+}
