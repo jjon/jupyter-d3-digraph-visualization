@@ -1,0 +1,401 @@
+@prefix crm: <http://cidoc.ics.forth.gr/rdfs/cidoc_v4.2.rdfs#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix h10: <http://example.com/thisgraph#> .
+@prefix heml: <http://www.heml.org/schemas/2003-09-17/heml#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pome: <http://prosopOnto.medieval.england/2006/04/pome#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://purl.org/vocab/relationship#> .
+@prefix snotes: <http://my.sourcenotes.org/2006/04/sourcenotes#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix random: <http://some.random.thing#> .
+
+pome:Ralph_fitz_Nicholas_service1 {
+    h10:Ralph_fitz_Nicholas pome:serves h10:Henry_III .
+}
+
+{
+    h10:Andrea_de_Canceaus a pome:Person ;
+        rdfs:label "Andrea de Canceaus" .
+
+    h10:Maulay_Peter_de_d_1279 a pome:Person ;
+        rdfs:label "Peter de Maulay d. 1279" .
+
+    h10:Nevill_Ralph_de a pome:Person ;
+        rdfs:label "Ralph de Nevill, bp. Chichester, Chancellor" .
+
+    h10:Pagano_de_Chaurces a pome:Person ;
+        rdfs:label "Pagano de Chaurces" .
+
+    h10:Peter_de_Rivaux a pome:Person ;
+        rdfs:label "Peter de Rivaux" .
+
+    h10:Roger_Picard a pome:Person ;
+        rdfs:label "Roger Picard" ;
+        rel:parentOf h10:John_Picard .
+
+    h10:W_earl_Aubermarle a pome:Person ;
+        rdfs:label "William de Fortibus, earl Aubermarle" ;
+        rdfs:comment """"Soon after the death of Baldwin (October 13, 1213), William de Fortibus, Hawise's son by her second husband, was established by King John in the territories of the Countship of Albemarle, and in 1215 the whole of his mother's estates were formally confirmed to him. He is described by Bishop Stubbs as "a feudal adventurer of the worst type," and for some time was actively engaged in the struggles of the Norman barons against both John and Henry III.
+He was one of the twenty-five executors of the Great Charter; but in the war that followed sided with John, subsequently changing sides as often as it suited his policy. His object was to revive the independent power of the feudal barons, and he co-operated to this end with Falkes de Breaut and other foreign adventurers established in the country by John. This brought him into conflict with the great justiciar, Hubert de Burgh, and in 1219 he was declared a rebel and excommunicated for attending a forbidden tournament. In 1220 matters were brought to a crisis by his refusal to surrender the two royal castles of Rockingham and Sauvey of which he had been made constable in 1216. Henry III marched against them in person, the garrisons fled, and they fell without a blow. In the following year, however, Albemarle, in face of further efforts to reduce his power, rose in revolt.
+He was now again excommunicated by the legate Pandulph at a solemn council held in St Paul's, and the whole force of the kingdom was set in motion against him, a special scutage—the scutagium de Bihan—being voted for this purpose by the Great Council. The capture of his Castle of Bytham broke his power; he sought sanctuary and, at Pandulph's intercession, was pardoned on condition of going for six years to the Holy Land. He remained in England, however, and in 1223 was once more in revolt with Falkes de Breaute, the Earl of Chester and other turbulent spirits. A reconciliation was once more patched up; but it was not until the fall of Falkes de Breaute that Albemarle finally settled down as an English noble.
+In 1225 he witnessed Henry's third re-issue of the Great Charter; in 1227 he went as, ambassador, to Antwerp; and in 1230 he accompanied Henry on his expedition to Brittany. In 1241 he set out for the Holy Land, but died at sea, on his way there, on March 26 1242." wikipedia""" .
+
+    oa:Annotation_Nevill_Ralph_de_service1 a oa:Annotation ;
+        oa:hasBody [ rdfs:label "Ralph de Nevill serves twice as chancellor" ;
+                pome:dateRange "1226-1240",
+                    "1242-1244" ;
+                pome:office "Chancellor" ] ;
+        oa:hasTarget pome:Nevill_Ralph_de_service1 .
+
+    oa:Annotation_Nevill_Ralph_de_service2 a oa:Annotation ;
+        oa:hasBody [ snotes:places <http://prosopOnto.medieval.england/2006/04/pome/Place#Chichester_See> ;
+                pome:office "Bishop of Chichester" ] ;
+        oa:hasTarget pome:Nevill_Ralph_de_service2 .
+
+    oa:Annotation_Ralph_fitz_Nicholas_service1 a oa:Annotation ;
+        oa:hasBody [ rdfs:label "Ralph fitz Nicholas, household steward to Henry III" ;
+                pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e11116> ;
+                pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite> p.34" ;
+                pome:office "Steward" ;
+                rdfs:comment "Served as steward with Godfrey de Craucombe, and William de Cantilupe. of especial importance during Henry's early majority 1227-",
+                    "Stacey p.34 n. 122 \"The late C.A.F. Meekings compiled detailed biographical studies of Henry III's stewards. A small portion of this material appears in the introduction to CRR, vol. 15, xxxvii-xxxix; at present the rest are available only in manuscript at the PRO in London. The only other adequate study of a household steward is Dr. Carpenter's treatment of Godfrey de Craucombe in \"Sheriffs of Oxfordshire', 214-46, 255-74. The pioneering account by Tout, <cite>Chapters<cite>, vol. i, 201-5, is unreliable\"." ] ;
+        oa:hasTarget pome:Ralph_fitz_Nicholas_service1 .
+
+    oa:Annotation_brompton_service1 a oa:Annotation ;
+        oa:hasBody [ rdfs:label "Brian de Brompton holds one knight's fee of Ralph Mortimer" ;
+                pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e15885> ;
+                pome:office "knight" ;
+                rdfs:comment "13th Century feodary of Ralph Mortimer states that \"Johan de Estone tenet in Marintone tertiam partem f' unius militum de Briano de Brompton et ipse de dicto Radulphi et ipse de R.\"" ] ;
+        oa:hasTarget pome:brompton_service1 .
+
+    h10:Richard_Corbet a pome:Person ;
+        rdfs:label "Richard Corbet" ;
+        rel:parentOf h10:Corbet_Reginald .
+
+    h10:Sampson_William a pome:Person ;
+        rdfs:label "William Sampson" ;
+        crm:participated_in h10:hostage_exchange_1233k ;
+        rel:parentOf h10:Philip_fitz_William_Sampson .
+
+    h10:Thomas_earl_of_Warwick_d_1242 a pome:Person ;
+        rdfs:label "Thomas earl of Warwick" ;
+        crm:participated_in h10:hostage_exchange_1233i ;
+        rel:childOf h10:Henry_earl_of_Warwick_d_1229,
+            h10:Phillippa_Basset_d_1265 ;
+        rdfs:comment " March connection: \"Thomas de Newburgh, son of Henry Earl of Warwick, the conqueror of Gower, parted with the lordship to the crown. King John, in the fourth year of his reign\" (www.gutenberg.org/files/12576/12576-h/12576-h.htm Title	The Mirror of Literature, Amusement, and Instruction Volume 17, No. 478, February 26, 1831 Language	English EText-No.	12576 Release Date	2004-06-01 Copyright Status	Not copyrighted in the United States. If you live elsewhere check the laws of your country before downloading this ebook. Base Directory	/files/12576/  Dates are funny here, but the narrative seems to be Newburg conquerors of Gower -- Gower to John -- Gower to William de Braose -- need to verify this stuff, but Thomas clearly a marcher in 1233, explaining why Henry was unsure of him.",
+            "Newburgh family in the Beaumont affinity: 1911 brittannica comments that Henry of Newburgh 1st earl was tight with the beaumont bros.; and \"Of his sons Roger de Newburgh became 2nd earl of Warwick and died in 1153; Rotrou (d. 11 3 9) became archbishop of Rouen; and Robert, seneschal and justiciar of Normandy, died in 1185 in the abbey of Bec, of which he was a benefactor. The 2nd earl was followed by his two sons in succession, William (d. 1184) and Waleran (d. 1204). Henry de Newburgh, 5th earl of Warwick (1192-1229), took the royal side in the civil wars of the reigns of John and Henry III. The 6th earl, Thomas de Newburgh (c. 1213-1297), left no heirs, and was succeeded by his sister Margaret, countess of Warwick in her own right, who was twice married, but left no heirs. Her second husband, John du Plessis, assumed the title of earl of Warwick in 1245, and in 1250 received a grant of his wife's lands for life. He was succeeded in 1263 by Countess Margaret's cousin and heir, Sir William Mauduit (1220-1268), 8th earl of Warwick. Mauduit's sister and heiress, Isabel de Beauchamp, had apparently adopted the religious life at the time of her brother's death, and her son William de Beauchamp became 9th earl of Warwick.\" brittannica is in error here. The consensus seems to be that  Thomas Newburgh 1201-1242." .
+
+    h10:Henry_earl_of_Warwick_d_1229 ;
+        rdfs:label "Henry, earl of Warwick (d 1229)" .
+    
+    h10:Phillippa_Basset_d_1265 a pome:Person ;
+        rdfs:label "Phillippa Basset (d 1265)" .
+    
+    h10:Warwick_Castle a pome:Place ;
+        rdfs:label "Warwick Castle" ;
+        crm:participated_in h10:hostage_exchange_1233i .
+
+    h10:A_son_of_John_Durvassal a pome:Person ;
+        rdfs:label "A son of John Durvassal" ;
+        crm:participated_in h10:hostage_exchange_1233j ;
+        pome:is_hostage_for h10:John_Durvassal ;
+        rel:childOf h10:John_Durvassal .
+
+    h10:Audley_Henry_de a pome:Person ;
+        rdfs:label "Audley, Henry de" ;
+        crm:participated_in h10:hostage_exchange_1233f ;
+        pome:gives_hostage_to h10:Hugh_Despenser .
+
+    h10:Brompton_Brian_de_1215-1277 a pome:Person ;
+        rdfs:label "Brompton, Brian de (1215-1277)" ;
+        rel:parentOf h10:Henry_de_Brompton ;
+        foaf:name "Brian de Brompton" .
+
+    h10:Corbet_Thomas a pome:Person, pome:Baron ;
+        rdfs:label "Corbet, Thomas" ;
+        crm:participated_in h10:hostage_exchange_1233g ;
+        pome:gives_hostage_to h10:Lacy_Walter_de_d_1241 .
+
+    h10:Engelard_de_Cigogné a pome:Person ;
+        rdfs:label "Engelard de Cigogné" ;
+        crm:participated_in h10:hostage_exchange_1233e ;
+        pome:holds_as_hostage h10:John_Picard .
+
+    h10:Ferrières_Isabella_de a pome:Person ;
+        rdfs:label "Ferrières, Isabella de" ;
+        rel:childOf h10:Ferrières_Walcheline_de_d_1201 ;
+        rel:spouseOf h10:Mortimer_Roger_d_1214 .
+        
+    h10:Ferrières_Walcheline_de_d_1201 a pome:Person ;
+        rdfs:label "Ferrières, Walcheline de (d 1201)" .
+
+    h10:Henry_III a pome:Person ;
+        rdfs:label "Henry III" ;
+        crm:participated_in h10:hostage_exchange_1233j ;
+        pome:holds_as_hostage h10:A_son_of_John_Durvassal ;
+        owl:sameAs <http://errol.oclc.org/laf/n83-148645.html> .
+
+    h10:Hugh_Despenser a pome:Person ;
+        rdfs:label "Hugh Despenser" ;
+        crm:participated_in h10:hostage_exchange_1233f ;
+        pome:holds_as_hostage h10:Ranulf_de_Aldithele .
+
+    h10:Mortimer_Roger_d_1214 a pome:Person ;
+        rdfs:label "Mortimer, Roger (d.1214)" ;
+        rel:parentOf h10:Mortimer_Ralph_d_1247 ;
+        rel:spouseOf h10:Ferrières_Isabella_de .
+
+    h10:Peter_fitz_Herbert a pome:Person ;
+        rdfs:label "Peter fitz Herbert" ;
+        crm:participated_in h10:hostage_exchange_1233d ;
+        pome:holds_as_hostage h10:Jacob_de_Beauchamp .
+
+    h10:Ralph_fitz_Nicholas a pome:Person ;
+        rdfs:label "Ralph fitz Nicholas" ;
+        crm:participated_in h10:hostage_exchange_1233h ;
+        pome:holds_as_hostage h10:John_de_Stafford .
+
+    h10:Ranulf_de_Aldithele a pome:Person ;
+        rdfs:label "Ranulf de Aldithele" ;
+        crm:participated_in h10:hostage_exchange_1233f ;
+        pome:is_hostage_for h10:Audley_Henry_de .
+
+    h10:Corbet_Reginald a pome:Person ;
+        rdfs:label "Corbet, Reginald" ;
+        crm:participated_in h10:hostage_exchange_1233g ;
+        pome:is_hostage_for h10:Corbet_Thomas ;
+        rel:childOf h10:Richard_Corbet .
+
+    h10:Henry_de_Brompton a pome:Person ;
+        rdfs:label "Henry (son of Brian) de Brompton" ;
+        crm:participated_in h10:hostage_exchange_1233a ;
+        pome:is_hostage_for h10:Mortimer_Ralph_d_1247 ;
+        rel:childOf h10:Brompton_Brian_de_1215-1277 ;
+        foaf:name "Henry de Brompton" .
+
+    h10:Henry_de_Gamages a pome:Person ;
+        rdfs:label "Henry de Gamages" ;
+        crm:participated_in h10:hostage_exchange_1233c ;
+        pome:is_hostage_for h10:William_de_Gamages ;
+        rel:childOf h10:William_de_Gamages .
+
+    h10:Hervicus_de_Stafford a pome:Person ;
+        rdfs:label "Hervicus de Stafford" ;
+        crm:participated_in h10:hostage_exchange_1233h ;
+        pome:gives_hostage_to h10:Ralph_fitz_Nicholas ;
+        rel:parentOf h10:John_de_Stafford .
+
+    h10:Jacob_de_Beauchamp a pome:Person ;
+        rdfs:label "Jacob de Beauchamp" ;
+        crm:participated_in h10:hostage_exchange_1233d ;
+        pome:is_hostage_for h10:Beauchamp_Walter_de ;
+        rel:childOf h10:Beauchamp_Walter_de .
+
+    h10:John_Picard a pome:Person ;
+        rdfs:label "John fitz Roger Picard" ;
+        crm:participated_in h10:hostage_exchange_1233e ;
+        pome:is_hostage_for h10:Lacy_Walter_de_d_1241 .
+
+    h10:John_de_Lodbroc a pome:Person ;
+        rdfs:label "John de Lodbroc" ;
+        crm:participated_in h10:hostage_exchange_1233i,
+            h10:hostage_exchange_1233k ;
+        pome:gives_hostage_to h10:Segrave_Stephen_d_1241 .
+
+    h10:John_de_Stafford a pome:Person ;
+        rdfs:label "John de Stafford" ;
+        crm:participated_in h10:hostage_exchange_1233h ;
+        pome:is_hostage_for h10:Hervicus_de_Stafford ;
+        rel:childOf h10:Hervicus_de_Stafford .
+
+    h10:Mortimer_Ralph_d_1247 a pome:Person ;
+        rdfs:label "Mortimer, Ralph (d.1247)" ;
+        crm:participated_in h10:hostage_exchange_1233a ;
+        pome:gives_hostage_to h10:William_de_Stutevill ;
+        pome:lordOf h10:Brompton_Brian_de_1215-1277 ;
+        rel:childOf h10:Ferrières_Isabella_de,
+            h10:Mortimer_Roger_d_1214 ;
+        rel:spouseOf h10:Gwladys_Ddu .
+        
+    h10:Gwladys_Ddu a pome:Person ;
+        rdfs:label "Gwladys_Ddu" ;
+        rel:childOf h10:Llywelyn_ab_Iorwerth .
+        
+    h10:Llywelyn_ab_Iorwerth a pome:Person;
+        rdfs:label "Llywelyn ab Iorwerth" .
+
+    h10:Philip_fitz_William_Sampson a pome:Person ;
+        rdfs:label "Philip fitz William Sampson" ;
+        crm:participated_in h10:hostage_exchange_1233k ;
+        pome:is_hostage_for h10:John_de_Lodbroc ;
+        rel:childOf h10:Sampson_William .
+
+    h10:Stutevill_Osmund_de a pome:Person ;
+        rdfs:label "Stutevill, Osmund de" ;
+        crm:participated_in h10:hostage_exchange_1233b ;
+        pome:is_hostage_for h10:William_de_Stutevill ;
+        rel:childOf h10:William_de_Stutevill .
+
+    h10:William_de_Gamages a pome:Person ;
+        rdfs:label "William de Gamages" ;
+        crm:participated_in h10:hostage_exchange_1233c ;
+        pome:gives_hostage_to h10:Beauchamp_Walter_de ;
+        rel:parentOf h10:Henry_de_Gamages .
+
+    h10:hostage_exchange_1233a a crm:Event ;
+        rdfs:label "1233 hostages: Ralph Mortimer gives Henry de Brompton to William de Stutevill" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:Henry_de_Brompton ;
+        pome:hostageGiver h10:Mortimer_Ralph_d_1247 ;
+        pome:hostageHolder h10:William_de_Stutevill ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" ;
+        rdfs:comment "Complex hostage exchange involving nearly 30 people, intimates of the crown as well as marcher lords. Each ternary relation (guarantor, hostage, captor) is recorded in a separate resource." .
+
+    h10:hostage_exchange_1233b a crm:Event ;
+        rdfs:label "1233 hostages: William de Stutevill gives son Osmund de Stutevill to Stephen Segrave" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:Stutevill_Osmund_de ;
+        pome:hostageGiver h10:William_de_Stutevill ;
+        pome:hostageHolder h10:Segrave_Stephen_d_1241 ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233c a crm:Event ;
+        rdfs:label "1233 hostages: William de Gamages gives son Henry to Walter de Beauchamp" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:Henry_de_Gamages ;
+        pome:hostageGiver h10:William_de_Gamages ;
+        pome:hostageHolder h10:Beauchamp_Walter_de ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233d a crm:Event ;
+        rdfs:label "1233 hostages: Walter de Beauchamp gives son Jacob to Peter fitz Herbert" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:Jacob_de_Beauchamp ;
+        pome:hostageGiver h10:Beauchamp_Walter_de ;
+        pome:hostageHolder h10:Peter_fitz_Herbert ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233e a crm:Event ;
+        rdfs:label "1233 hostages: Walter de Lacy gives John fitz Roger Picard to Engelard de Cigogné" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:John_Picard ;
+        pome:hostageGiver h10:Lacy_Walter_de_d_1241 ;
+        pome:hostageHolder h10:Engelard_de_Cigogné ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233f a crm:Event ;
+        rdfs:label "1233 hostages: Henry Audley gives Ranulf his son to Hugh Despenser" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:Ranulf_de_Aldithele ;
+        pome:hostageGiver h10:Audley_Henry_de ;
+        pome:hostageHolder h10:Hugh_Despenser ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233g a crm:Event ;
+        rdfs:label "1233 hostages: Thomas Corbet gives Reginald Corbet to Walter de Lacy" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:Corbet_Reginald ;
+        pome:hostageGiver h10:Corbet_Thomas ;
+        pome:hostageHolder h10:Lacy_Walter_de_d_1241 ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233h a crm:Event ;
+        rdfs:label "1233 hostages: Hervé de Stafford gives his son John to Ralph fitz Nicholas" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:John_de_Stafford ;
+        pome:hostageGiver h10:Hervicus_de_Stafford ;
+        pome:hostageHolder h10:Ralph_fitz_Nicholas ;
+        pome:isDiscussedIn "R. C. Stacey <cite>Finance and Politics in the reign of Henry III</cite>" ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233j a crm:Event ;
+        rdfs:label "1233 hostages: John Durvassal gives his son to the king \"in obsidem de fideli sevicio, sicut predictum est\"" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:A_son_of_John_Durvassal ;
+        pome:hostageGiver h10:John_Durvassal ;
+        pome:hostageHolder h10:Henry_III ;
+        dc:date "1233-06-10" .
+
+    h10:John_Durvassal a pome:Person ;
+        rdfs:label "John Durvassal" ;
+        crm:participated_in h10:hostage_exchange_1233i,
+            h10:hostage_exchange_1233j ;
+        pome:gives_hostage_to h10:Henry_III .
+
+    h10:Lacy_Walter_de_d_1241 a pome:Person ;
+        rdfs:label "Walter de Lacy, d1241" ;
+        crm:participated_in h10:hostage_exchange_1233e,
+            h10:hostage_exchange_1233g ;
+        pome:gives_hostage_to h10:Engelard_de_Cigogné ;
+        pome:holds_as_hostage h10:Corbet_Reginald .
+
+    h10:Segrave_Stephen_d_1241 a pome:Person ;
+        rdfs:label "Segrave, Stephen de d.1241" ;
+        crm:participated_in h10:hostage_exchange_1233b,
+            h10:hostage_exchange_1233k ;
+        pome:holds_as_hostage h10:Philip_fitz_William_Sampson,
+            h10:Stutevill_Osmund_de .
+
+    h10:hostage_exchange_1233i a crm:Event ;
+        rdfs:label "1233 hostages: Thomas earl of Warwick gave the castle of Warewick \"ut dominus rex securus sit quod nullum dampnum per eum eveniet.\" and its custody was granted to John de Lodbroc and John Durvassal" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:custodyHolder h10:John_Durvassal,
+            h10:John_de_Lodbroc ;
+        pome:isDiscussedIn <http://my.sourcenotes.org/2006/04/sourcenotes/library#Rolls.CR-1940> ;
+        pome:pledge h10:Warwick_Castle ;
+        pome:pledgeGiver h10:Thomas_earl_of_Warwick_d_1242 ;
+        dc:date "1233-06-10" .
+
+    h10:hostage_exchange_1233k a crm:Event ;
+        rdfs:label "1233 hostages: John de Lodbroc gives his nephew Philip fitz William Sampson to Stephen Segrave\"" ;
+        pome:attestedIn <http://my.sourcenotes.org/2006/04/sourcenotes/SourceNote#d1e13573> ;
+        pome:hostage h10:Philip_fitz_William_Sampson ;
+        pome:hostageGiver h10:John_de_Lodbroc ;
+        pome:hostageHolder h10:Segrave_Stephen_d_1241 ;
+        dc:date "1233-06-10" .
+
+    h10:Beauchamp_Walter_de a pome:Person ;
+        rdfs:label "Beauchamp, Walter de" ;
+        crm:participated_in h10:hostage_exchange_1233c,
+            h10:hostage_exchange_1233d ;
+        pome:gives_hostage_to h10:Peter_fitz_Herbert ;
+        pome:holds_as_hostage h10:Henry_de_Gamages ;
+        rel:parentOf h10:Jacob_de_Beauchamp .
+
+    h10:William_de_Stutevill a pome:Person ;
+        rdfs:label "Stutevill de, William" ;
+        crm:participated_in h10:hostage_exchange_1233a,
+            h10:hostage_exchange_1233b ;
+        pome:gives_hostage_to h10:Segrave_Stephen_d_1241 ;
+        pome:holds_as_hostage h10:Henry_de_Brompton ;
+        rel:parentOf h10:Stutevill_Osmund_de ;
+        foaf:name "William de Stutevill" ;
+        random:property "random text literal" .
+}
+
+pome:brompton_service1 {
+    h10:Brompton_Brian_de_1215-1277 pome:serves h10:Mortimer_Ralph_d_1247 .
+}
+
+pome:Nevill_Ralph_de_service2 {
+    h10:Nevill_Ralph_de pome:serves <http://prosopOnto.medieval.england/2006/04/pome/Church> .
+}
+
+pome:Nevill_Ralph_de_service1 {
+    h10:Nevill_Ralph_de pome:serves h10:Henry_III .
+}
+
+

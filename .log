@@ -1010,3 +1010,26 @@ The error message is: ('EOF in multi-line string', (1, 0))
 2021-07-08 12:46:56,602 [41996] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
 2021-07-08 12:46:56,603 [41996] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
 2021-07-08 12:46:56,603 [41996] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-07-08 14:59:08,837 [172473] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2021-07-08 14:59:08,837 [172473] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2021-07-08 14:59:08,837 [172473] INFO     root:247: [JupyterRequire] Initializing comms.
+2021-07-08 14:59:08,839 [172473] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2021-07-08 14:59:08,840 [172473] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2021-07-08 14:59:08,840 [172473] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-07-08 15:00:36,022 [172499] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2021-07-08 15:00:36,022 [172499] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2021-07-08 15:00:36,022 [172499] INFO     root:247: [JupyterRequire] Initializing comms.
+2021-07-08 15:00:36,024 [172499] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2021-07-08 15:00:36,025 [172499] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2021-07-08 15:00:36,025 [172499] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2021-07-08 15:01:13,363 [172499] DEBUG    rdflib:93: [JupyterRequire] RDFLib Version: 4.2.2
+2021-07-08 15:05:15,048 [172499] DEBUG    parso.cache:126: [JupyterRequire] pickle loaded: /home/jjon/anaconda3/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+2021-07-08 15:05:15,061 [172499] DEBUG    parso.cache:126: [JupyterRequire] pickle loaded: /home/jjon/anaconda3/lib/python3.7/typing.py
+2021-07-08 15:05:15,067 [172499] DEBUG    parso.cache:126: [JupyterRequire] pickle loaded: /home/jjon/anaconda3/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/typing.pyi
+2021-07-08 15:05:15,099 [172499] DEBUG    parso.cache:126: [JupyterRequire] pickle loaded: /home/jjon/anaconda3/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+2021-07-08 15:30:00,835 [172499] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2021-07-08 15:30:00,835 [172499] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2021-07-08 15:30:00,835 [172499] INFO     root:247: [JupyterRequire] Initializing comms.
+2021-07-08 15:30:00,844 [172499] DEBUG    root:197: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2021-07-08 15:30:00,846 [172499] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2021-07-08 15:30:00,847 [172499] DEBUG    root:97: [JupyterRequire] Registering comm targets.
