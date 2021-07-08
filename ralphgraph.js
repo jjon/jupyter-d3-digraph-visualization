@@ -2,16 +2,17 @@
 ToDo: implement css
 ***********************************/
 
-require.undef('ralphgraph');
+
+require.undef('ralphgraph'); //forces reload
 
 define('ralphgraph', ['d3'], function (d3) {
   window.sim = undefined;  // for debugging purposes only
   window.debug = undefined; // for debugging purposes only
-  var links = undefined;
-  var nodes = undefined;
+  window.links = undefined;
+  window.nodes = undefined;
 
-  function drawGraph(container, data, width, height){
-        // var width = 600, height = 600;
+  function drawGraph(container, params, data){
+        var width = 600, height = 600;
         links = data.links.map(d => Object.create(d));
         nodes = data.nodes.map(d => Object.create(d));
 
@@ -28,11 +29,13 @@ define('ralphgraph', ['d3'], function (d3) {
           };
 
         //console.log(links);
+        //ToDo: make charge strength a parameter of drawGraph
         const simulation = d3.forceSimulation(nodes)
           .force("link", d3.forceLink(links)
             .id(d => d.id)
-            .distance(d => whatNodeTypes(d, 'crm:Event')? 30 : 60))
-          .force("charge", d3.forceManyBody().strength(-600))
+            .distance(d => whatNodeTypes(d, 'Event')? 60 : 100)
+          )
+          .force("charge", d3.forceManyBody().strength(params.chargeStrength))
           .force("center", d3.forceCenter(width / 2, height / 2));
 
         sim = simulation; //for debugging purposes only
@@ -105,9 +108,9 @@ define('ralphgraph', ['d3'], function (d3) {
         node.append("text")
           .attr("dy", 12)
           .attr("dx", 6)
-          .text(d => {
-            return (d["rdf:type"] == "crm:Event")? d.id : d["rdfs:label"]
-          })
+          .text(d => d.id)
+            //Creates problems: return (d["rdf:type"] == "crm:Event")? d.id : d["rdfs:label"]
+            //ralphjson works but graphjson throws errors from d3.selectors in highlight()
           .style("font", "9px sans serif")
           .clone(true).lower()
           .attr("fill", "none")
@@ -118,7 +121,6 @@ define('ralphgraph', ['d3'], function (d3) {
         //node.on("click", highlight);
 
         simulation.on("tick", () => {
-          link.attr("foo", d => {debug = d;})
           link.attr("d", linkArc);
           node.attr("transform", d => "translate(" + d.x + ", " + d.y + ")");
         });
@@ -141,6 +143,9 @@ define('ralphgraph', ['d3'], function (d3) {
               C${d.source.x} ${d.source.y}, ${qx1} ${qy1}, ${d.target.x} ${d.target.y}`;
     };
 
+    /* whatNodeTypes returns true if either source or target
+     *  is the provided Node type.d => whatNodeTypes(d, 'crm:Event')? 10 : 60
+     */
     function whatNodeTypes(link, ntype){
       var stype = link.source["rdf:type"];
       var ttype = link.target["rdf:type"];
@@ -184,10 +189,11 @@ define('ralphgraph', ['d3'], function (d3) {
       d3.selectAll('.active').classed("active", false);
       d3.selectAll('.edge').attr("marker-end", "none");
 
-      // get array of links with clicked node as either source or target
+      // get array of links with mouseover node as either source or target
       var nodelinks = links.filter(x => x.source.index == i || x.target.index == i);
 
       // set node class active
+      // ToDo: This is a problem for graphjson?
       new Set(nodelinks.map(x => [x.source, x.target]).flat())
       .forEach(x => d3.select(`#${x.id}`).classed('active', true))
 
@@ -238,5 +244,4 @@ define('ralphgraph', ['d3'], function (d3) {
 
 
 });
-
-element.append('<small>&#x25C9; &#x25CB; &#x25EF; Loaded somedamnthing &#x25CC; &#x25CE; &#x25CF;</small>');
+element.append('<small>&#x25C9; &#x25CB; &#x25EF; Loaded ralphgraph.js &#x25CC; &#x25CE; &#x25CF;</small>');

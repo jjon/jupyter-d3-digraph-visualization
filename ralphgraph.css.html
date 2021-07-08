@@ -11,6 +11,7 @@
     text-decoration: underline overline;
   }
   #metadata {
+    position: absolute;
     max-height: 300px;
     overflow: auto;
     padding: 2px;
@@ -18,13 +19,15 @@
     background: #efeadf;
     border: 0px;
     border-radius: 8px;
+    width: min-content;
+    min-width: 460px;
   }
   table.metadata {
     margin-left: auto!important;
     margin-right: auto!important;
   }
-  td.value {text-align: left;}
-  td.key {
+  table.metadata td.value {text-align: left;}
+  table.metadata td.key {
     border-style: solid;
     border-width: 1px 6px 0px 0px;
     border-color: #f60;
