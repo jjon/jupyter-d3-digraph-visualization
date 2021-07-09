@@ -1,5 +1,5 @@
 rdflib>=5.0.0
 networkx>=2.6.1
 jupyter
-pygraphviz>=1.7
 graphviz
+pygraphviz==1.7
